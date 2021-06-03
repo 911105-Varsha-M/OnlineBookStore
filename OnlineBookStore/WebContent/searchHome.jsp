@@ -27,7 +27,7 @@ try{
 	
 	 Connection con=ConnectionProvider.getCon();
 	 Statement st=con.createStatement();
-	 ResultSet rs=st.executeQuery("select *from product where bookname like '%"+search+"%' or price like '%"+search+"%'or id like '%"+search+"%'or category like '%"+search+"%' or author like '%"+search+"%' and active='Yes'");
+	 ResultSet rs=st.executeQuery("select *from product where bookname like '%"+search+"%' or price like '%"+search+"%'or category like '%"+search+"%' or author like '%"+search+"%' and active='Yes'");
 	 while(rs.next())
 	 {
 		 z=1;

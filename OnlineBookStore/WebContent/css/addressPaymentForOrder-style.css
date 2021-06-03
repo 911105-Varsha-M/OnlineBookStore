@@ -1,7 +1,8 @@
     body {
   font-family: "Open Sans", sans-serif;
   line-height: 1.25;
-  background-color: #0080FF;
+  background:url("p4.jpg");
+  background-size: cover;
 }
 
 a

@@ -13,10 +13,15 @@ h3
 	color: yellow;
 	text-align: center;
 }
+body{
+background: url("bg.jpg");
+background-size: cover;
+}
+
 </style>
 </head>
 <body>
-<div style="color: white; text-align: center; font-size: 30px;">All Products and Edit Products <i class='fab fa-elementor'></i></div>
+<div style="color: red; text-align: center; font-size: 30px;">All Books and Edit Books <i class='fab fa-elementor'></i></div>
 <%
 String msg=request.getParameter("msg");
 if("done".equals(msg)){
