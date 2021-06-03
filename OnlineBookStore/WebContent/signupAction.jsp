@@ -30,6 +30,6 @@ try{
 catch(Exception e)
 {
 	System.out.println(e);
-	response.sendRedirect("signup.jsp?msg=valid");
+	response.sendRedirect("signup.jsp?msg=invalid");
 }
 %>

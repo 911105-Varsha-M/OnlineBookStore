@@ -1,7 +1,8 @@
     body {
   font-family: "Open Sans", sans-serif;
   line-height: 1.25;
-  background-color: #0080FF;
+  background:url("bg.jpg");
+ background-size: cover;
 }
 a
 {
@@ -11,6 +12,10 @@ a
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+}
+h2{
+	color: #9a33a6;
+	font-family: cursive;
 }
 
 table {

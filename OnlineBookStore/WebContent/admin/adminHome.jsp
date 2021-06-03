@@ -1,4 +1,5 @@
-
+<%@include file="adminHeader.jsp" %>
+<%@include file="../footer.jsp" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -6,8 +7,10 @@
 <style>
 h1
 {
-color: white;
+color: aqua;
+font-stretch: narrower;
 text-align: center;
+font-family: cursive;
 font-size: 100px;
 }</style>
 </head>

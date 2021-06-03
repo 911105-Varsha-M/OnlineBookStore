@@ -23,7 +23,7 @@
     <input type="submit" value="SignUp">
     
     </form>
-      <h2><a href="">Login</a></h2>
+      <h2><a href="login.jsp">Login</a></h2>
   </div>
   <div class='whysign'>
 <%
@@ -31,7 +31,7 @@ String msg=request.getParameter("msg");
 if("valid".equals(msg))
 {
 %>
-<h1>Successfully Updated</h1>
+<h1>Successfully Registered !</h1>
 <%} %>
 <%
 if("invalid".equals(msg))
