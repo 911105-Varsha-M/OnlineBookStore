@@ -20,7 +20,8 @@
        <h2><a href="forgotPassword.jsp">Forgot Password?</a></h2>
   </div>
   <div class='whysignLogin'>
-  <%
+  <center>
+  <% 
   String msg=request.getParameter("msg");
   if("notexist".equals(msg))
   {
@@ -32,11 +33,11 @@
    }
 <h1>Some thing Went Wrong! Try Again !</h1>
 <%} %>
-	
+	</center>
 	
 	<center>
     <h2>Online Book Store</h2>
-    <p>This Online Book Store allows the users to shop through online without going to the shops.</p>
+    <p>SAVE ENERGY !!!</br></br>SAVE TIME !!!</p>
     </center>
   </div>
 </div>
