@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<h3>Online shopping Bill (BTech Days)</h3>
+<h3>Online Book Store(Bill)</h3>
 <hr>
 <div class="left-div"><h3>Name:  </h3></div>
 <div class="right-div-right"><h3>Email:  </h3></div>
@@ -33,7 +33,8 @@
 <h3>Product Details</h3>
   <tr>
     <th>S.No</th>
-    <th>Product Name</th>
+    <th>Book Name</th>
+     <th>Author Name</th>
     <th>category</th>
     <th>Price</th>
     <th>Quantity</th>
@@ -41,6 +42,7 @@
   </tr>
   
   <tr>
+    <td></td>
     <td></td>
     <td></td>
     <td></td>
